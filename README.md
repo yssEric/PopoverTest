@@ -23,7 +23,7 @@
 }
 
 2、调用
-  #pragma mark - //creatUi
+#pragma mark - //creatUi
 - (void)creatUi {
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"item" style:UIBarButtonItemStylePlain target:self action:@selector(clickItem:)];
     for (int i = 0; i<3; i++) {
